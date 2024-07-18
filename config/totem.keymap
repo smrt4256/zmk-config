@@ -61,11 +61,11 @@ ZMK_CONDITIONAL_LAYER(LOWER RAISE, ADJUST)
 
 ZMK_LAYER(base,
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-                &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
+                &kp W       &kp U       &kp M       &kp G       &kp J           &kp Z       &kp H       &kp O       &kp SE_ADIA &kp SE_ARNG
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-                HRM_A       HRM_S       HRM_D       HRM_F       &kp G           &kp H       HRM_J       HRM_K       HRM_L       HRM_OE
+                HRM_A       HRM_S       HRM_R       HRM_T       &kp F           &kp SE_ODIA HRM_N       HRM_E       HRM_L       &kp I
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-    C_ESC       WM_Z        &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp SE_COMM &kp SE_DOT  &kp SE_MINS &kp SE_ADIA
+    C_ESC       WM_X        &kp V       &kp C       &kp D       &kp B           &kp P       &kp K       &kp SE_DOT  &kp Y       &kp Q       &kp SE_QUES
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
                                         &smart_shft BS_LOW      TABNUM          SPCNAV      ENT_RS      &sk MEH
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
