@@ -40,15 +40,29 @@ ZMK_BEHAVIOR(hml_repeat, hold_tap,
 
 // HOMEROW
 
-// left-hand homerow mods
-#define HRM_A  &hml LGUI A
-#define HRM_S  &hml LALT S
+// // left-hand homerow mods
+// #define HRM_A  &hml LGUI A
+// #define HRM_S  &hml LALT S
 #define HRM_D  &hml LCTRL D
 #define HRM_F  &hml LSHFT F
 
-// right-hand homerow mods
+// // right-hand homerow mods
 #define HRM_J  &hmr RSHFT J
 #define HRM_K  &hmr LCTRL K
 #define HRM_L  &hmr LALT L
-#define HRM_OE &hmr LGUI SE_ODIA
+#define HRM_OE &hmr LGUI SE_ODIA // Ö
+
+
+// left-hand homerow mods
+#define HRM_A  &hml LGUI A
+#define HRM_S  &hml LALT S
+#define HRM_R  &hml LCTRL R
+#define HRM_T  &hml LSHFT T
+
+// right-hand homerow mods
+#define HRM_N  &hmr RSHFT N
+#define HRM_E  &hmr LCTRL E
+#define HRM_L  &hmr LALT L
+#define HRM_I  &hmr LGUI I
+
 
