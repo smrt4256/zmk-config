@@ -49,3 +49,4 @@
 #define ENT_RS &lt RAISE ENTER
 #define WM_Z   &lt WM Z
 
+#define WM_X   &lt WM X
